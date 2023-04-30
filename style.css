@@ -1,0 +1,59 @@
+body {
+    background: #F2F2F2;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.produtos {
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.produtos li {
+    display: inline-grid;
+    text-align: left;
+    width: 200px;
+    height: 350px;
+    color: #ebdccb;
+    padding: 50px; 
+}
+
+.produtos h2 {
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700; 
+    font-size: 20px;   
+}
+
+.produtos p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400; 
+    font-size: 15px;   
+}
+
+.sedans {
+    background: #E38826;  
+    border-radius: 10px 0 0 10px;
+}
+
+.suvs {
+    background: #006970;
+}
+
+.luxury {
+    background: #004241;
+    border-radius: 0 10px 10px 0;
+}
+
+#ilustração {
+    justify-self: left;
+
+}
