@@ -11,6 +11,11 @@ body {
     align-items: center;
 }
 
+#ilustração {
+    justify-self: left;
+
+}
+
 .produtos {
     width: 900px;
     margin: 0 auto;
@@ -53,7 +58,40 @@ body {
     border-radius: 0 10px 10px 0;
 }
 
-#ilustração {
-    justify-self: left;
-
+.moreSedans {
+    width: 70%;
+    height: 50px;
+    border-radius: 40px;
+    border-color:#E38826;
+    color: #E38826;
+    font-size: 15px; 
+    text-align: center;   
+    border: none; 
 }
+
+.moreSuvs {
+    width: 70%;
+    height: 50px;
+    border-radius: 40px;
+    border-color:#006970;
+    color:#006970;
+    font-size: 15px; 
+    text-align: center;   
+    border: none; 
+}
+
+.moreLuxury {
+    width: 70%;
+    height: 50px;
+    border-radius: 40px;
+    border-color:#004241;
+    color:#004241;
+    font-size: 15px; 
+    text-align: center;   
+    border: none; 
+}
+
+.attribution {
+    text-align: right;   
+}
+
